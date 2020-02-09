@@ -1,0 +1,101 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-02-06 19:00 -03
+Nmap scan report for ubnt (192.168.1.1)
+Host is up (0.0049s latency).
+Nmap scan report for 192.168.1.13
+Host is up (0.13s latency).
+Nmap scan report for mint.localdomain (192.168.1.15)
+Host is up (0.035s latency).
+Nmap scan report for LAPTOP-O8F5G0A3.localdomain (192.168.1.16)
+Host is up (0.032s latency).
+Nmap scan report for AirdeMarylange.localdomain (192.168.1.23)
+Host is up (0.0042s latency).
+Nmap scan report for Air-de-Fernando.localdomain (192.168.1.25)
+Host is up (0.099s latency).
+Nmap scan report for android-6929f040949235a0.localdomain (192.168.1.29)
+Host is up (0.026s latency).
+Nmap scan report for Galaxy-A8-2018.localdomain (192.168.1.39)
+Host is up (0.0046s latency).
+Nmap scan report for SM-J410G.localdomain (192.168.1.40)
+Host is up (0.016s latency).
+Nmap scan report for iPhonedeAntonio.localdomain (192.168.1.57)
+Host is up (0.070s latency).
+Nmap scan report for LAPTOP-TL8FCRMF.localdomain (192.168.1.58)
+Host is up (0.0075s latency).
+Nmap scan report for richardwellerson.localdomain (192.168.1.65)
+Host is up (0.0040s latency).
+Nmap scan report for DESKTOP-H6MSEOF.localdomain (192.168.1.70)
+Host is up (0.0077s latency).
+Nmap scan report for PAT-0089.localdomain (192.168.1.73)
+Host is up (0.0076s latency).
+Nmap scan report for 192.168.1.82
+Host is up (0.0012s latency).
+Nmap scan report for 192.168.1.89
+Host is up (0.24s latency).
+Nmap scan report for DESKTOP-JA8VVDI.localdomain (192.168.1.91)
+Host is up (0.025s latency).
+Nmap scan report for DESKTOP-K8BSFMU.localdomain (192.168.1.92)
+Host is up (0.0039s latency).
+Nmap scan report for Air-de-Rafael.localdomain (192.168.1.97)
+Host is up (0.0051s latency).
+Nmap scan report for 192.168.1.99
+Host is up (0.042s latency).
+Nmap scan report for william-Inspiron.localdomain (192.168.1.100)
+Host is up (0.041s latency).
+Nmap scan report for android-e9ba0d84fb2f4650.localdomain (192.168.1.120)
+Host is up (0.040s latency).
+Nmap scan report for pedro-Inspiron-3542.localdomain (192.168.1.121)
+Host is up (0.091s latency).
+Nmap scan report for iPhonedeEstela.localdomain (192.168.1.124)
+Host is up (0.035s latency).
+Nmap scan report for lucaswerner-Inspiron-3583 (192.168.1.133)
+Host is up (0.0041s latency).
+Nmap scan report for Galaxy-S10.localdomain (192.168.1.142)
+Host is up (0.14s latency).
+Nmap scan report for 192.168.1.149
+Host is up (0.011s latency).
+Nmap scan report for iPhonedeArllen.localdomain (192.168.1.152)
+Host is up (0.00043s latency).
+Nmap scan report for 192.168.1.155
+Host is up (0.0028s latency).
+Nmap scan report for 192.168.1.156
+Host is up (0.0045s latency).
+Nmap scan report for conrado-medeiros (192.168.1.168)
+Host is up (0.0052s latency).
+Nmap scan report for guilherme-Nitro.localdomain (192.168.1.171)
+Host is up (0.077s latency).
+Nmap scan report for DimiDimi-Pinel.localdomain (192.168.1.176)
+Host is up (0.093s latency).
+Nmap scan report for lenovo403.localdomain (192.168.1.181)
+Host is up (0.11s latency).
+Nmap scan report for thiagopnobre (192.168.1.182)
+Host is up (0.0034s latency).
+Nmap scan report for TomTecniaiPhone.localdomain (192.168.1.186)
+Host is up (0.45s latency).
+Nmap scan report for iPhonedeAugusto.localdomain (192.168.1.188)
+Host is up (0.048s latency).
+Nmap scan report for android-d10313df35d2ae64.localdomain (192.168.1.189)
+Host is up (0.073s latency).
+Nmap scan report for AP.localdomain (192.168.1.197)
+Host is up (0.0044s latency).
+Nmap scan report for Leandros-Air.localdomain (192.168.1.199)
+Host is up (0.10s latency).
+Nmap scan report for Old-Boy.localdomain (192.168.1.202)
+Host is up (0.0028s latency).
+Nmap scan report for MI9-MiPhone.localdomain (192.168.1.210)
+Host is up (0.27s latency).
+Nmap scan report for RedmiNote7-Redmi.localdomain (192.168.1.213)
+Host is up (0.27s latency).
+Nmap scan report for Brunos-iPhone.localdomain (192.168.1.218)
+Host is up (0.089s latency).
+Nmap scan report for Beatrizs-Air.localdomain (192.168.1.221)
+Host is up (0.85s latency).
+Nmap scan report for Galaxy-A6.localdomain (192.168.1.224)
+Host is up (0.27s latency).
+Nmap scan report for PC-Gui.localdomain (192.168.1.231)
+Host is up (0.013s latency).
+Nmap scan report for Galaxy-J7-Pro.localdomain (192.168.1.251)
+Host is up (0.55s latency).
+Nmap scan report for MBP-de-Fe.localdomain (192.168.1.253)
+Host is up (0.0068s latency).
+Nmap done: 256 IP addresses (49 hosts up) scanned in 49.31 seconds

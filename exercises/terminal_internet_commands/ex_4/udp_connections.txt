@@ -1,0 +1,18 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+udp        0      0 0.0.0.0:1900            0.0.0.0:*                          
+udp        0      0 iPhonedeArllen.lo:59408 rio01s25-in-f14.1e1:443 ESTABLISHED
+udp        0      0 0.0.0.0:43259           0.0.0.0:*                          
+udp        0      0 iPhonedeArllen.lo:51869 ce-in-f189.1e100.ne:443 ESTABLISHED
+udp        0      0 localhost:domain        0.0.0.0:*                          
+udp        0      0 0.0.0.0:bootpc          0.0.0.0:*                          
+udp        0      0 0.0.0.0:32868           0.0.0.0:*                          
+udp        0      0 0.0.0.0:57621           0.0.0.0:*                          
+udp        0      0 0.0.0.0:ipp             0.0.0.0:*                          
+udp        0      0 0.0.0.0:37866           0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp        0      0 iPhonedeArllen.lo:42334 rio01s25-in-f3.1e10:443 ESTABLISHED
+udp6       0      0 [::]:51836              [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             

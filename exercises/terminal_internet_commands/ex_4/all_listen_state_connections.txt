@@ -1,0 +1,60 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:57621           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:domain        0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:39525           0.0.0.0:*               LISTEN     
+tcp6       0      0 ip6-localhost:ipp       [::]:*                  LISTEN     
+tcp6       0      0 [::]:http               [::]:*                  LISTEN     
+udp        0      0 0.0.0.0:1900            0.0.0.0:*                          
+udp        0      0 0.0.0.0:43259           0.0.0.0:*                          
+udp        0      0 localhost:domain        0.0.0.0:*                          
+udp        0      0 0.0.0.0:bootpc          0.0.0.0:*                          
+udp        0      0 0.0.0.0:32868           0.0.0.0:*                          
+udp        0      0 0.0.0.0:57621           0.0.0.0:*                          
+udp        0      0 0.0.0.0:ipp             0.0.0.0:*                          
+udp        0      0 0.0.0.0:37866           0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp6       0      0 [::]:51836              [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+raw6       0      0 [::]:ipv6-icmp          [::]:*                  7          
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     SEQPACKET  LISTENING     18655    /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     33028    /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     33032    /run/user/1000/bus
+unix  2      [ ACC ]     STREAM     LISTENING     33033    /run/user/1000/gnupg/S.gpg-agent.extra
+unix  2      [ ACC ]     STREAM     LISTENING     33034    /run/user/1000/gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     33035    /run/user/1000/gnupg/S.dirmngr
+unix  2      [ ACC ]     STREAM     LISTENING     33036    /run/user/1000/gnupg/S.gpg-agent.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     33037    /run/user/1000/gnupg/S.gpg-agent.browser
+unix  2      [ ACC ]     STREAM     LISTENING     32390    /run/user/1000/keyring/control
+unix  2      [ ACC ]     STREAM     LISTENING     46294    /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     29422    /tmp/ssh-0NwMgrsCCpNl/agent.1284
+unix  2      [ ACC ]     STREAM     LISTENING     18388    @irqbalance742.sock
+unix  2      [ ACC ]     STREAM     LISTENING     35917    /run/user/1000/keyring/pkcs11
+unix  2      [ ACC ]     STREAM     LISTENING     34226    /run/user/1000/keyring/ssh
+unix  2      [ ACC ]     STREAM     LISTENING     36123    /run/user/1000/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     29009    /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     29440    @/tmp/.ICE-unix/1284
+unix  2      [ ACC ]     STREAM     LISTENING     51953    /run/user/1000/pulse/cli
+unix  2      [ ACC ]     STREAM     LISTENING     29008    @/tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     18635    /run/systemd/fsck.progress
+unix  2      [ ACC ]     STREAM     LISTENING     18637    /run/lvm/lvmetad.socket
+unix  2      [ ACC ]     STREAM     LISTENING     224671   /run/user/1000/keyring/.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     18657    /run/lvm/lvmpolld.socket
+unix  2      [ ACC ]     STREAM     LISTENING     18659    /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     51960    /tmp/qtsingleapp-zoom-3e8
+unix  2      [ ACC ]     STREAM     LISTENING     28621    /var/run/nvidia-persistenced/socket
+unix  2      [ ACC ]     STREAM     LISTENING     31104    /run/NetworkManager/private-dhcp
+unix  2      [ ACC ]     STREAM     LISTENING     37037    /tmp/.com.google.Chrome.7A8cob/SingletonSocket
+unix  2      [ ACC ]     STREAM     LISTENING     45465    /tmp/.org.chromium.Chromium.UzcpQo/SS
+unix  2      [ ACC ]     STREAM     LISTENING     29441    /tmp/.ICE-unix/1284
+unix  2      [ ACC ]     STREAM     LISTENING     19174    /run/avahi-daemon/socket
+unix  2      [ ACC ]     STREAM     LISTENING     19176    /run/uuidd/request
+unix  2      [ ACC ]     STREAM     LISTENING     19178    /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     19180    /run/acpid.socket
+unix  2      [ ACC ]     STREAM     LISTENING     30687    @/tmp/dbus-rArk3fgdQK
+unix  2      [ ACC ]     STREAM     LISTENING     60681    /run/cups/cups.sock

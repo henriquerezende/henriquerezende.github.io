@@ -1,0 +1,18 @@
+{
+  "args": {
+    "lastname": "Rezende"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "application/json", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.58.0", 
+    "X-Amzn-Trace-Id": "Root=1-5e3c81a8-c83c12943aa8e8242bad2b26"
+  }, 
+  "json": null, 
+  "method": "POST", 
+  "origin": "187.111.21.18", 
+  "url": "https://httpbin.org/anything?lastname=Rezende"
+}

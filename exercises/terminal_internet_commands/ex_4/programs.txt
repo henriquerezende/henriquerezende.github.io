@@ -1,0 +1,56 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       User       Inode      PID/Program name    
+tcp        0      0 0.0.0.0:57621           0.0.0.0:*               LISTEN      1000       151427     19917/spotify       
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      101        47235      3953/systemd-resolv 
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      0          58999      15272/cupsd         
+tcp        0      0 0.0.0.0:39525           0.0.0.0:*               LISTEN      1000       176465     19917/spotify       
+tcp        0      0 192.168.1.152:45872     104.17.208.240:443      ESTABLISHED 1000       325725     1784/chrome --type= 
+tcp       32      0 192.168.1.152:51282     52.202.62.236:443       CLOSE_WAIT  1000       216601     14129/zoom          
+tcp        0      0 192.168.1.152:46544     3.225.146.200:443       ESTABLISHED 1000       234543     1784/chrome --type= 
+tcp        0      0 192.168.1.152:41902     192.0.73.2:443          ESTABLISHED 1000       327714     1784/chrome --type= 
+tcp        0      0 192.168.1.152:54080     104.18.98.194:443       ESTABLISHED 1000       319292     1784/chrome --type= 
+tcp        0      0 192.168.1.152:34522     104.17.209.240:443      ESTABLISHED 1000       322057     1784/chrome --type= 
+tcp        0      0 192.168.1.152:44546     64.233.190.188:5228     ESTABLISHED 1000       35716      1784/chrome --type= 
+tcp        0      0 192.168.1.152:47502     151.101.65.69:443       ESTABLISHED 1000       325736     1784/chrome --type= 
+tcp        0      0 192.168.1.152:41482     18.234.32.149:443       ESTABLISHED 1000       232629     1784/chrome --type= 
+tcp        0      0 192.168.1.152:42944     23.41.194.216:443       ESTABLISHED 1000       322083     1784/chrome --type= 
+tcp        0      0 192.168.1.152:38932     104.105.152.179:443     ESTABLISHED 1000       325586     1784/chrome --type= 
+tcp       32      0 192.168.1.152:46278     192.184.68.132:443      CLOSE_WAIT  1000       325740     1784/chrome --type= 
+tcp        0      0 192.168.1.152:47240     13.227.101.79:443       ESTABLISHED 1000       320148     1784/chrome --type= 
+tcp        0      0 192.168.1.152:47560     2.22.80.163:443         ESTABLISHED 1000       319284     1784/chrome --type= 
+tcp        0      0 192.168.1.152:60572     35.186.224.53:443       ESTABLISHED 1000       320650     19917/spotify       
+tcp        0      0 192.168.1.152:43570     216.58.222.102:443      ESTABLISHED 1000       326739     1784/chrome --type= 
+tcp        0      0 192.168.1.152:50792     2.22.80.161:443         ESTABLISHED 1000       319288     1784/chrome --type= 
+tcp        0      0 192.168.1.152:55532     18.205.93.207:443       ESTABLISHED 1000       51990      14129/zoom          
+tcp        0      0 192.168.1.152:39158     151.101.1.69:443        ESTABLISHED 1000       325735     1784/chrome --type= 
+tcp        0      0 192.168.1.152:60858     104.26.5.214:443        ESTABLISHED 1000       319287     1784/chrome --type= 
+tcp        0      0 192.168.1.152:36396     104.16.1.35:443         ESTABLISHED 1000       327715     1784/chrome --type= 
+tcp        0      0 192.168.1.152:43030     172.217.29.66:443       ESTABLISHED 1000       325737     1784/chrome --type= 
+tcp        0      0 192.168.1.152:48722     13.227.124.76:443       ESTABLISHED 1000       314013     14064/slack --type= 
+tcp        0      0 192.168.1.152:55070     104.154.127.138:4070    ESTABLISHED 1000       151434     19917/spotify       
+tcp        0      0 192.168.1.152:39156     151.101.1.69:443        ESTABLISHED 1000       325734     1784/chrome --type= 
+tcp        0      0 192.168.1.152:38892     108.174.12.133:443      ESTABLISHED 1000       322054     1784/chrome --type= 
+tcp        0      0 192.168.1.152:60496     35.186.224.47:443       ESTABLISHED 1000       76735      19917/spotify       
+tcp        0      0 192.168.1.152:49100     34.206.51.217:443       ESTABLISHED 1000       232691     1784/chrome --type= 
+tcp        0      0 192.168.1.152:55002     52.202.62.217:443       ESTABLISHED 1000       51986      14129/zoom          
+tcp        0      0 192.168.1.152:60706     198.252.206.25:443      ESTABLISHED 1000       327716     1784/chrome --type= 
+tcp        0      0 192.168.1.152:35926     18.228.99.199:443       ESTABLISHED 1000       56435      14064/slack --type= 
+tcp        1      0 192.168.1.152:51686     35.186.224.53:443       CLOSE_WAIT  1000       159188     19917/spotify       
+tcp6       0      0 ::1:631                 :::*                    LISTEN      0          58998      15272/cupsd         
+tcp6       0      0 :::80                   :::*                    LISTEN      0          28488      851/apache2         
+udp        0      0 0.0.0.0:1900            0.0.0.0:*                           1000       151896     19917/spotify       
+udp        0      0 0.0.0.0:43259           0.0.0.0:*                           117        19223      754/avahi-daemon: r 
+udp        0      0 192.168.1.152:59923     172.217.162.174:443     ESTABLISHED 1000       319349     1784/chrome --type= 
+udp        0      0 192.168.1.152:51869     64.233.190.189:443      ESTABLISHED 1000       59440      1784/chrome --type= 
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           101        47234      3953/systemd-resolv 
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           0          30390      1042/dhclient       
+udp        0      0 0.0.0.0:32868           0.0.0.0:*                           1000       151899     19917/spotify       
+udp        0      0 0.0.0.0:57621           0.0.0.0:*                           1000       175454     19917/spotify       
+udp        0      0 192.168.1.152:33370     172.217.162.163:443     ESTABLISHED 1000       325602     1784/chrome --type= 
+udp        0      0 0.0.0.0:631             0.0.0.0:*                           0          58247      15273/cups-browsed  
+udp        0      0 0.0.0.0:37866           0.0.0.0:*                           1000       151897     19917/spotify       
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                           1000       39944      1746/chrome         
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                           1000       36377      1784/chrome --type= 
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           117        19221      754/avahi-daemon: r 
+udp6       0      0 :::51836                :::*                                117        19224      754/avahi-daemon: r 
+udp6       0      0 :::5353                 :::*                                117        19222      754/avahi-daemon: r 

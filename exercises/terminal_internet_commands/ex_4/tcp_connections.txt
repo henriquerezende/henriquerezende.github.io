@@ -1,0 +1,25 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:57621           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:domain        0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:39525           0.0.0.0:*               LISTEN     
+tcp       32      0 iPhonedeArllen.lo:51282 ec2-52-202-62-236:https CLOSE_WAIT 
+tcp        0      0 iPhonedeArllen.lo:46544 ec2-3-225-146-200:https ESTABLISHED
+tcp        0      0 iPhonedeArllen.lo:44546 ce-in-f188.1e100.n:5228 ESTABLISHED
+tcp        0      0 iPhonedeArllen.lo:41482 ec2-18-234-32-149:https ESTABLISHED
+tcp        0      0 iPhonedeArllen.lo:40846 server-52-84-174-:https ESTABLISHED
+tcp        0      0 iPhonedeArllen.lo:41980 51.144.164.215:https    TIME_WAIT  
+tcp        0      0 iPhonedeArllen.lo:60572 53.224.186.35.bc.:https ESTABLISHED
+tcp        0      0 iPhonedeArllen.lo:47178 server-13-227-101:https ESTABLISHED
+tcp        0      0 iPhonedeArllen.lo:55532 ec2-18-205-93-207:https ESTABLISHED
+tcp        0      0 iPhonedeArllen.lo:51248 ec2-18-228-52-138.s:ssh TIME_WAIT  
+tcp        0      0 iPhonedeArllen.lo:48722 server-13-227-124:https ESTABLISHED
+tcp        0      0 iPhonedeArllen.lo:55070 138.127.154.104.bc:4070 ESTABLISHED
+tcp        0      0 iPhonedeArllen.lo:60496 47.224.186.35.bc.:https ESTABLISHED
+tcp        0      0 iPhonedeArllen.lo:49100 ec2-34-206-51-217:https ESTABLISHED
+tcp        0      0 iPhonedeArllen.lo:55002 ec2-52-202-62-217:https ESTABLISHED
+tcp        0      0 iPhonedeArllen.lo:35926 ec2-18-228-99-199:https ESTABLISHED
+tcp        1      0 iPhonedeArllen.lo:51686 53.224.186.35.bc.:https CLOSE_WAIT 
+tcp6       0      0 ip6-localhost:ipp       [::]:*                  LISTEN     
+tcp6       0      0 [::]:http               [::]:*                  LISTEN     

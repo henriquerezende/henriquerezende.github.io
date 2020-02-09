@@ -1,0 +1,1 @@
+Aparecem o nome de pessoas diferentes, apesar de todos os domínios serem da mesma empresa, por que os domínios estão registrados em diferentes paises e servidores. Em cada país uma filial diferente da Amazon é responsavel por seu respectivo domínio.
