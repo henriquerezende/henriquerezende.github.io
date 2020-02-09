@@ -1,0 +1,22 @@
+{
+  "name": "henriquerezende.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio and all exercises and projects made for Trybe Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquerezende/henriquerezende.github.io.git"
+  },
+  "author": "Henrique Rezende",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henriquerezende/henriquerezende.github.io/issues"
+  },
+  "homepage": "https://github.com/henriquerezende/henriquerezende.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
