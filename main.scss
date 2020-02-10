@@ -1,4 +1,8 @@
 $trybe-color: #0fa36b;
+$trybe-purple: #925ca8;
+$trybe-gray: #333;
+$cool-orange: #d37f00;
+$white: #ffffff;
 
 .bg-1 {
     background-color: $trybe-color;
@@ -7,7 +11,9 @@ $trybe-color: #0fa36b;
     display: flex;
   }
 
-
+.border-10{
+    border: 15px solid $white !important;
+}
 
   html,body {
     height: 100%;
