@@ -10,11 +10,8 @@
   display: flex;
 }
 
-.border-10 {
-  border: 5px solid #242423 !important;
-}
-
-html, body {
+html,
+body {
   height: 100%;
 }
 
