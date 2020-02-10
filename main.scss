@@ -1,1 +1,18 @@
+$trybe-color: #0fa36b;
+
+.bg-1 {
+    background-color: $trybe-color;
+    height: 100%;
+    align-items: center;
+    display: flex;
+  }
+
+
+
+  html,body {
+    height: 100%;
+  }
+  
+
 @import "node_modules/bootstrap/scss/bootstrap.scss";
+
