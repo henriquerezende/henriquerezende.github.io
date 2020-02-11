@@ -8,13 +8,24 @@ $platinum: #e8eddf;
 $stil_de_grain_yellow: #f5cb5c;
 $rainsin_black: #242423;
 $jet: #333333;
+$vinho: #bd5d38;
+$font: 'Saira Extra Condensed';
 
+h1{
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+.font_saira{
+  font-family: $font;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .text-rainsin {
-  color: $rainsin_black;
+  color: $white;
 }
 
 .bg-1 {
-  background-color: $stil_de_grain_yellow;
+  background-color: $vinho;
   height: 100%;
   align-items: center;
   display: flex;

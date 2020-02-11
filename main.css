@@ -1,10 +1,21 @@
 @charset "UTF-8";
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+.font_saira {
+  font-family: "Saira Extra Condensed";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .text-rainsin {
-  color: #242423;
+  color: #ffffff;
 }
 
 .bg-1 {
-  background-color: #f5cb5c;
+  background-color: #bd5d38;
   height: 100%;
   align-items: center;
   display: flex;
