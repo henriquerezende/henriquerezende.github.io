@@ -8,5 +8,6 @@ const triangulo = (a, b, c) => {
     return (a<=0 | b<=0 | c<= 0) ? false : (((a+b+c)==180) ? true : false)
 }
 
+
 triangulo(a,b,c)==true ? console.log("É um triangulo") : console.log("Erro: Não é um triangulo")
 
