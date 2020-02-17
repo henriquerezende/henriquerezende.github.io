@@ -7,7 +7,7 @@ for (let cont = 0; cont < n; cont++) {
 }
 
 let meio1 = Math.round(n/2)
-let meio2 = Math.round(n/2)
+let meio2 = meio1
 for (let cont3 = 0; cont3 < n; cont3+=2){
   string[meio1]="*"
   string[meio2]="*"
