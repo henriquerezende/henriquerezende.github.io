@@ -1,4 +1,4 @@
-let num = 81;
+let num = 10341013;
 let ePrimo = true;
 
 if (num == 2 || num < 1 || num % 2 == 0) {
