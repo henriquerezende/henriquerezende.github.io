@@ -10,5 +10,3 @@ for (let cont3 = n-1; cont3 >= 0; cont3--){
   let arrayToString = string.join("");
   console.log(arrayToString)
 }
-
-
