@@ -1,6 +1,6 @@
 n = 5
-let asterisco = [""]
-let vazio = [""]
+let asterisco = ""
+let vazio = ""
 
 for(let cont = 0; cont < n; cont++){
     asterisco += "*"
