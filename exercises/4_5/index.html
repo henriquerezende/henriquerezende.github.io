@@ -95,8 +95,22 @@
         }
         for(let i = 0; i<3; i++){
             let titulo3 = document.createElement("h3")
+            titulo3.className = "description"
             document.getElementsByClassName("main-content")[0].appendChild(titulo3)
         }
+
+        titulo.className = "title"
+
+        document.getElementsByClassName("main-content")[0].removeChild(conteudoEsquerdo)
+
+        conteudoDireito.style.marginRight = "auto"
+
+        conteudoPrincipal.style.backgroundColor = "green"
+
+        tabela.removeChild(tabela.lastChild)
+        tabela.removeChild(tabela.lastChild)
+
+
 
         // COLOQUE SEU CÓDIGO AQUI
     </script>
