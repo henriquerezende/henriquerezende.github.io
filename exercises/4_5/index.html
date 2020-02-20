@@ -58,26 +58,46 @@
     <script>
         let titulo = document.createElement("h1")
         titulo.textContent = "Exercício 4.5 - JavaScript DOM"
-        document.getElementsByTagName("body")[0].appendChild(titulo)
+        document.body.appendChild(titulo)
+
         let conteudoPrincipal = document.createElement("div")
         conteudoPrincipal.className = "main-content"
-        document.getElementsByTagName("body")[0].appendChild(conteudoPrincipal)
+        document.body.appendChild(conteudoPrincipal)
+
         let conteudoCentral = document.createElement("div")
         conteudoCentral.className = "center-content"
         document.getElementsByClassName("main-content")[0].appendChild(conteudoCentral)
+
         let paragrafo1 = document.createElement("p")
         paragrafo1.textContent = "Algum texto"
         document.getElementsByClassName("center-content")[0].appendChild(paragrafo1)
+
         let conteudoEsquerdo = document.createElement("div")
         conteudoEsquerdo.className = "left-content"
         document.getElementsByClassName("main-content")[0].appendChild(conteudoEsquerdo)
+
         let conteudoDireito = document.createElement("div")
         conteudoDireito.className = "right-content"
         document.getElementsByClassName("main-content")[0].appendChild(conteudoDireito)
+
         let imagem1 = document.createElement("img")
         imagem1.className = "small-image"
         imagem1.src = "https://picsum.photos/200"
         document.getElementsByClassName("left-content")[0].appendChild(imagem1)
+
+        let tabela = document.createElement("ul")
+        document.getElementsByClassName("right-content")[0].appendChild(tabela)        
+        let conteudo = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"]
+        for(i of conteudo){
+            let linha = document.createElement("li")
+            linha.innerHTML = i
+            document.getElementsByTagName("ul")[0].appendChild(linha)
+        }
+        for(let i = 0; i<3; i++){
+            let titulo3 = document.createElement("h3")
+            document.getElementsByClassName("main-content")[0].appendChild(titulo3)
+        }
+
         // COLOQUE SEU CÓDIGO AQUI
     </script>
   </body>
