@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 4.5</title>
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+        let titulo = document.createElement("h1")
+        titulo.textContent = "Exercício 4.5 - JavaScript DOM"
+        document.body.appendChild(titulo)
+
+        let conteudoPrincipal = document.createElement("div")
+        conteudoPrincipal.className = "main-content"
+        document.body.appendChild(conteudoPrincipal)
+
+        let conteudoCentral = document.createElement("div")
+        conteudoCentral.className = "center-content"
+        document.getElementsByClassName("main-content")[0].appendChild(conteudoCentral)
+
+        let paragrafo1 = document.createElement("p")
+        paragrafo1.textContent = "Algum texto"
+        document.getElementsByClassName("center-content")[0].appendChild(paragrafo1)
+
+        let conteudoEsquerdo = document.createElement("div")
+        conteudoEsquerdo.className = "left-content"
+        document.getElementsByClassName("main-content")[0].appendChild(conteudoEsquerdo)
+
+        let conteudoDireito = document.createElement("div")
+        conteudoDireito.className = "right-content"
+        document.getElementsByClassName("main-content")[0].appendChild(conteudoDireito)
+
+        let imagem1 = document.createElement("img")
+        imagem1.className = "small-image"
+        imagem1.src = "https://picsum.photos/200"
+        document.getElementsByClassName("left-content")[0].appendChild(imagem1)
+
+        let tabela = document.createElement("ul")
+        document.getElementsByClassName("right-content")[0].appendChild(tabela)        
+        let conteudo = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"]
+        for(i of conteudo){
+            let linha = document.createElement("li")
+            linha.innerHTML = i
+            document.getElementsByTagName("ul")[0].appendChild(linha)
+        }
+        for(let i = 0; i<3; i++){
+            let titulo3 = document.createElement("h3")
+            titulo3.className = "description"
+            document.getElementsByClassName("main-content")[0].appendChild(titulo3)
+        }
+
+        titulo.className = "title"
+
+        document.getElementsByClassName("main-content")[0].removeChild(conteudoEsquerdo)
+
+        conteudoDireito.style.marginRight = "auto"
+
+        conteudoPrincipal.style.backgroundColor = "green"
+
+        tabela.removeChild(tabela.lastChild)
+        tabela.removeChild(tabela.lastChild)
+
+
+
+        // COLOQUE SEU CÓDIGO AQUI
+    </script>
+  </body>
+</html>
