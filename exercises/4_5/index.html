@@ -56,6 +56,15 @@
   </head>
   <body>
     <script>
+        let titulo = document.createElement("h1")
+        titulo.textContent = "Exercício 4.5 - JavaScript DOM"
+        document.getElementsByTagName("body")[0].appendChild(titulo)
+        let conteudoPrincipal = document.createElement("div")
+        conteudoPrincipal.className = "main-content"
+        document.getElementsByTagName("body")[0].appendChild(conteudoPrincipal)
+        let conteudoCentral = document.createElement("div")
+        document.getElementsByClassName("main-content")[0].appendChild(conteudoCentral)
+
       // COLOQUE SEU CÓDIGO AQUI
     </script>
   </body>
