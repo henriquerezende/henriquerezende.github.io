@@ -63,11 +63,18 @@
         conteudoPrincipal.className = "main-content"
         document.getElementsByTagName("body")[0].appendChild(conteudoPrincipal)
         let conteudoCentral = document.createElement("div")
+        conteudoCentral.className = "center-content"
         document.getElementsByClassName("main-content")[0].appendChild(conteudoCentral)
         let paragrafo1 = document.createElement("p")
         paragrafo1.textContent = "Algum texto"
-        document.getElementsByClassName("center-content").appendChild(paragrafo1)
-      // COLOQUE SEU CÓDIGO AQUI
+        document.getElementsByClassName("center-content")[0].appendChild(paragrafo1)
+        let conteudoEsquerdo = document.createElement("div")
+        conteudoEsquerdo.className = "left-content"
+        document.getElementsByClassName("main-content")[0].appendChild(conteudoEsquerdo)
+        let conteudoDireito = document.createElement("div")
+        conteudoDireito.className = "right-content"
+        document.getElementsByClassName("main-content")[0].appendChild(conteudoDireito)
+        // COLOQUE SEU CÓDIGO AQUI
     </script>
   </body>
 </html>
