@@ -44,9 +44,10 @@ const romToDec = string => {
 const somaRomanos = (string) => {
     let array = []
     let soma = 0
-    for(Letra of string){       
+    for(Letra of string){
         array.push(romToDec(Letra))        
     }
+    console.log(array)
     for(indNum in array){
         if(array[parseInt(indNum)+1]>array[indNum]){
             soma -= array[indNum]
