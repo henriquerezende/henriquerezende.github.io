@@ -14,7 +14,7 @@
 
     <label
       >Half this number:
-      <input type="number" id="half-input" size="2" value="4" />
+      <input type="number" id="half-input" size="2" />
     </label>
     <button id="half-button">Calculate</button>
     <br /><br />
@@ -40,26 +40,38 @@
 
     <script>
       window.onload = function() {
-        function printFunction(inputID, fun) {
+        const printFunction = (inputID, fun) => {
           let paragraphSolution = document.createElement("p");
           input2 = document.getElementById(inputID);
           paragraphSolution.textContent = fun(input2.value);
           let solutionDiv = document.getElementById("solution");
           solutionDiv.appendChild(paragraphSolution);
-        }
+        };
 
-        function printFunctionTwoInputs(inputID, inputID2, fun) {
+        const printFunctionTwoInputs = (inputID, inputID2, fun) => {
           let paragraphSolution = document.createElement("p");
           input2 = document.getElementById(inputID);
           input3 = document.getElementById(inputID2);
           paragraphSolution.textContent = fun(input2.value, input3.value);
           let solutionDiv = document.getElementById("solution");
           solutionDiv.appendChild(paragraphSolution);
-        }
+        };
 
-        function squareNumber(num) {
+        const squareNumber = num => {
           return num * num;
-        }
+        };
+
+        const halfOf = num => {
+          return num / 2;
+        };
+
+        const percentOf = (num1, num2) => {
+          return (num1 / num2) * 100;
+        };
+
+        const areaOfCircle = radius => {
+          return Math.PI * squareNumber(radius);
+        };
 
         document
           .getElementById("square-button")
@@ -67,17 +79,11 @@
             printFunction("square-input", squareNumber);
           });
 
-        function halfOf(num) {
-          return num / 2;
-        }
-
-        document.getElementById("half-button").addEventListener("click", () => {
-          printFunction("half-input", halfOf);
+        document
+          .getElementById("half-button")
+          .addEventListener("click", () => {
+            printFunction("half-input", halfOf);
         });
-
-        function percentOf(num1, num2) {
-          return (num1 / num2) * 100;
-        }
 
         document
           .getElementById("percent-button")
@@ -89,12 +95,10 @@
             );
           });
 
-        function areaOfCircle(radius) {
-          return Math.PI * squareNumber(radius);
-        }
-
-        document.getElementById("area-button").addEventListener("click", () => {
-          printFunction("area-input", areaOfCircle);
+        document
+          .getElementById("area-button")
+          .addEventListener("click", () => {
+            printFunction("area-input", areaOfCircle);
         });
       };
     </script>
