@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <label
+      >Square this number:
+      <input type="number" id="square-input" size="2" />
+    </label>
+    <button id="square-button">Calculate</button>
+    <br /><br />
+
+    <label
+      >Half this number:
+      <input type="number" id="half-input" size="2" />
+    </label>
+    <button id="half-button">Calculate</button>
+    <br /><br />
+
+    <label>
+      Fraction:
+      <input type="number" id="percent1-input" size="2" />
+    </label>
+    <label>
+      Whole:
+      <input type="number" id="percent2-input" size="2" />
+    </label>
+    <button id="percent-button">Calculate</button>
+    <br /><br />
+
+    <label
+      >Calculate area of circle with radius:
+      <input type="number" id="area-input" size="2" />
+    </label>
+    <button id="area-button">Calculate</button>
+    <br /><br />
+    <div id="solution"></div>
+
+    <script>
+      window.onload = function() {
+        const printFunction = (inputID, fun) => {
+          let paragraphSolution = document.createElement("p");
+          input2 = document.getElementById(inputID);
+          paragraphSolution.textContent = fun(input2.value);
+          let solutionDiv = document.getElementById("solution");
+          solutionDiv.appendChild(paragraphSolution);
+        };
+
+        const printFunctionTwoInputs = (inputID, inputID2, fun) => {
+          let paragraphSolution = document.createElement("p");
+          input2 = document.getElementById(inputID);
+          input3 = document.getElementById(inputID2);
+          paragraphSolution.textContent = fun(input2.value, input3.value);
+          let solutionDiv = document.getElementById("solution");
+          solutionDiv.appendChild(paragraphSolution);
+        };
+
+        const squareNumber = num => {
+          return num * num;
+        };
+
+        const halfOf = num => {
+          return num / 2;
+        };
+
+        const percentOf = (num1, num2) => {
+          return (num1 / num2) * 100;
+        };
+
+        const areaOfCircle = radius => {
+          return Math.PI * squareNumber(radius);
+        };
+
+        document
+          .getElementById("square-button")
+          .addEventListener("click", () => {
+            printFunction("square-input", squareNumber);
+          });
+
+        document
+          .getElementById("half-button")
+          .addEventListener("click", () => {
+            printFunction("half-input", halfOf);
+        });
+
+        document
+          .getElementById("percent-button")
+          .addEventListener("click", () => {
+            printFunctionTwoInputs(
+              "percent1-input",
+              "percent2-input",
+              percentOf
+            );
+          });
+
+        document
+          .getElementById("area-button")
+          .addEventListener("click", () => {
+            printFunction("area-input", areaOfCircle);
+        });
+      };
+    </script>
+  </body>
+</html>
