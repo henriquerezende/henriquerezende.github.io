@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(88 , 111 , 107);
+  margin: 0;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: white;
+}
+
+ul , ol , li {
+  list-style: none;
+}
+
+#cabecalho {
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  color: black;
+  background-color: rgb(127 , 145 , 131);
+}
+
+.logo {
+  width: 100px;
+}
+
+#navbar {
+  margin: 1em;
+  padding: 0;
+  border: 0;
+  text-align: justify;
+}
+
+#navbar:after , #navbar:before , article p:after , #rodape:before {
+  display: inline-block;
+  width: 100%;
+  content: '';
+}
+
+.nav-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+section {
+  margin-top: 230px;
+}
+
+article {
+  border: solid 0;
+  border-radius: 15px;
+  background-color: rgb(184 , 184 , 170);
+  color: black;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+article p {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+article h2 {
+  text-align: center;
+}
+
+article h3 , h4 {
+  margin-left: 1em;
+}
+
+#tabela {
+  margin: 1px;
+  padding: 2px;
+  border: black 3px solid;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+}
+
+.lado-direito {
+  float: right;
+  width: 50%;
+}
+
+#outras_criptomoedas {
+  color: black;
+  background-color: rgb(184 , 184 , 170);
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: solid 0;
+  border-radius: 15px;
+}
+
+#rodape {
+  text-align: center;
+  bottom: 0;
+}
