@@ -15,12 +15,9 @@
     />
 
     <script>
-        let gamePrice = 39.99;
-        let discount = 0.20;
+      let gamePrice = 39.99;
+      let discount = 0.2;
     </script>
-    <!-- JavaScript could go up here -->
-    <!-- JavaScript could go up here -->
-    <!-- JavaScript could go up here -->
   </head>
 
   <body>
@@ -47,7 +44,7 @@
         </div>
 
         <script>
-             const alertClick = () => alert("You clicked the button")            
+          const alertClick = () => alert("You clicked the button");
         </script>
 
         <h2>Task 2</h2>
@@ -74,9 +71,9 @@
         </p>
 
         <script language="javascript" type="text/javascript">
-        const finalPrice = () => {
-          alert("£" + (gamePrice * discount).toFixed(2) + "off!")
-        }
+          const finalPrice = () => {
+            alert("£" + (gamePrice * discount).toFixed(2) + "off!");
+          };
         </script>
 
         <button onclick="finalPrice()">Discount</button>
@@ -106,6 +103,18 @@
               >
               may be of help!
             </p>
+            <img
+              id="img"
+              onMouseOver="goToImage(`./2-200x200.jpg`)"
+              onMouseOut="goToImage(`./1-200x200.jpg`)"
+              src="./1-200x200.jpg"
+              alt="image 1"
+            />
+            <script>
+              const goToImage = image => {
+                document.getElementById("img").src = image;
+              };
+            </script>
           </li>
         </ol>
       </div>
