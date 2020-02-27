@@ -4,7 +4,8 @@
     <title>Lorem Ipsum - All the facts - Lipsum generator</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/style.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Oxanium|Roboto|Roboto+Mono|Trade+Winds&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -106,8 +107,14 @@
 			<input type="text" id="lineHeight">
 			<label for="lineHeight">px</label>
 			<br>
-			<label for="fontType">Escolha o tipo de fonte:</label>
-			<input type="text" id="fontType">
+			<label>Escolha o tipo de fonte:</label>
+             <select id = "fontFamilyList">
+               <option value = "Roboto">Roboto</option>
+               <option value = "Oxanium">Oxanium</option>
+               <option value = "Trade Winds">Trade Winds</option>
+               <option value = "Roboto Mono">Roboto Mono</option>
+             </select>
+
 		</div>
 		<script src="js/main.js"></script>
   </body>
