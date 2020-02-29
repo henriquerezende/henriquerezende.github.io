@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:900|Teko&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <header class="header"><h1>Meme Generator</h1></header>
+      <div class="flex-container">
+        <div class="flex-item">
+          <div id="meme-image-container" class="img-container">
+            <img class="meme-img" id="meme-image" />
+            <p id="meme-text" class="meme-txt"></p>
+          </div>
+        </div>
+
+        <form class="meme-form flex-column">
+          <label for="text-input" class="flex-item"
+            >Digite aqui o texto do meme:</label
+          >
+          <input id="text-input" type="text" maxlength="60" class="flex-item" />
+
+          <label>Escolha a borda do seu meme:</label>
+          <div class="flex-container">
+            <input
+              type="button"
+              id="button1"
+              class="button1 flex-button"
+              title="Define a borda do meme"
+              value="Borda 1"
+            />
+            <input
+              type="button"
+              id="button2"
+              class="button2 flex-button"
+              title="Define a borda do meme"
+              value="Borda 2"
+            />
+            <input
+              type="button"
+              id="button3"
+              class="button3 flex-button"
+              title="Define a borda do meme"
+              value="Borda 3"
+            />
+          </div>
+          <label for="meme-insert" class="flex-item"
+            >Escolha uma imagem para o seu meme:</label
+          >
+          <input
+            id="meme-insert"
+            type="file"
+            accept="image/*"
+            class="flex-item"
+          />
+        </form>
+      </div>
+      <label class="meme-form align-txt-center"
+        >Ou escolha um das fotos abaixo:</label
+      >
+      <div class="flex-container">
+        <div>
+          <img
+            src="imgs/meme1.jpeg"
+            alt="Meme 1"
+            id="meme-1"
+            class="meme-selector"
+          />
+          <img
+            src="imgs/meme2.jpeg"
+            alt="Meme 2"
+            id="meme-2"
+            class="meme-selector"
+          />
+        </div>
+        <div>
+          <img
+            src="imgs/meme3.jpeg"
+            alt="Meme 3"
+            id="meme-3"
+            class="meme-selector"
+          />
+          <img
+            src="imgs/meme4.jpeg"
+            alt="Meme 4"
+            id="meme-4"
+            class="meme-selector"
+          />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Desenvolvido por
+        <a href="https://github.com/henriquerezende">Henrique Rezende</a> para o
+        curso da Trybe
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
