@@ -1,0 +1,108 @@
+/* * {
+  border: 1px solid red;
+} */
+
+body {
+  background-color: rgb(124, 124, 124);
+  font-family: "Teko", "Montserrat";
+  margin: 0 auto;
+  width: 80%;
+}
+
+h1 {
+  margin: 2% 0;
+}
+
+footer {
+  text-align: center;
+}
+
+.content {
+  background-color: rgb(239, 200, 139);
+  margin-top: 5%;
+  padding-bottom: 5%;
+  padding-top: 1em;
+}
+
+.header {
+  font-size: 50px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-button {
+  background-color: white;
+  flex-grow: 1;
+  margin: 0 0.5em;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-column .flex-item {
+  padding: 10px 0;
+}
+
+.img-container {
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  margin: 10px;
+  position: relative;
+  width: 400px;
+}
+
+.meme-txt {
+  color: black;
+  font-family: "Montserrat";
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 230px;
+  width: 90%;
+  word-break: break-all;
+  z-index: 10;
+}
+
+.meme-img {
+  height: 100%;
+  width: 100%;
+}
+
+.meme-form {
+  font-size: 35px;
+  margin: 10px;
+}
+
+.button1 {
+  border: 3px dashed red;
+}
+
+.button2 {
+  border: 5px double blue;
+}
+
+.button3 {
+  border: 6px groove green;
+}
+
+.meme-selector {
+  margin: 1em;
+  width: 10em;
+}
+
+.align-txt-center {
+  display: block;
+  text-align: center;
+}
