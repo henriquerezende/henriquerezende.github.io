@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paleta de Cores</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="content">
+      <header><h1 id="title">Paleta de Cores</h1></header>
+      <form class="flex-column">
+        <label for="board-size">Digite o numero de pixels:</label>
+        <input type="number" id="board-size" min="5" max="50" />
+        <input
+          type="button"
+          value="Alterar tamanho do quadro"
+          id="generate-board"
+        />
+        <input type="button" value="Limpar Quadro" id="clear-board" />
+      </form>
+      <div id="color-palette" class="flex-container">
+        <div class="color selected"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+      </div>
+      <div id="board-div" class="flex-container">
+        <div id="pixel-board" class="pixel-board"></div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Desenvolvido por
+        <a href="https://github.com/henriquerezende">Henrique Rezende</a> para o
+        curso da Trybe
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

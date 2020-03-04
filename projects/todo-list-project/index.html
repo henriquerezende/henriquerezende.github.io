@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="content">
+      <header><h1>Minha Lista de Tarefas</h1></header>
+      <p id="funcionamento">
+        Clique duas vezes em um item para marcá-lo como completo
+      </p>
+      <form>
+        <input type="text" id="texto-tarefa" />
+        <button id="criar-tarefa" class="add-tarefa" type="button">Adicionar</button>
+      </form>
+      <ol id="lista-tarefas"></ol>
+      <form class="bottom-form">
+        <button type="button" id="remover-selecionado" class="fas fa-trash"></button>
+        <button type="button" id="mover-cima" class="fas fa-arrow-up"></button>
+        <button type="button" id="mover-baixo" class="fas fa-arrow-down"></button>
+        <button type="button" id="salvar-tarefas" class="fas fa-save"></button>
+        <button type="button" id="apaga-tudo" class="bottom-button">Apaga tudo</button>
+        <button type="button" id="remover-finalizados" class="bottom-button">Remove finalizados</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

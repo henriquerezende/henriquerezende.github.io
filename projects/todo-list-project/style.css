@@ -1,0 +1,89 @@
+body {
+  background: rgba( 49 , 54 , 56 , 1 );
+  display: flex;
+  font-family: Montserrat, Roboto, Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 70%;
+}
+
+h1 {
+  margin: 0;
+}
+
+form {
+  display: flex;
+}
+
+i {
+  margin: auto;
+  padding: 0.6em;
+}
+
+i:hover {
+  color: rgba( 218 , 91 , 89 , 1 );
+}
+
+button {
+  background-color: rgba( 218 , 91 , 89 , 0 );
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  flex-grow: 1;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0.4em;
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  flex-grow: 1;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0.4em;
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: rgba( 208 , 163 , 90 , 1 );
+  border-radius: 5px;
+}
+
+.content {
+  background-color: rgba( 224 , 223 , 213 , 1 );
+  border-radius: 15px;
+  margin-top: 5%;
+  padding: 2em;
+}
+
+.add-tarefa {
+  background-color: rgba( 228 , 179 , 99 , 1 );
+  color: white;
+}
+
+.add-tarefa:hover {
+  background-color: rgba( 208 , 163 , 90 , 1 );
+}
+
+.bottom-button {
+  background-color: rgba( 239 , 100 , 97 , 1 );
+  color: white;
+}
+
+.bottom-button:hover {
+  background-color: rgba( 218 , 91 , 89 , 1 );
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.selected {
+  background-color: gray;
+  border-radius: 5px;
+}
