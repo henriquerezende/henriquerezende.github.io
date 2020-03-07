@@ -29,10 +29,7 @@ document.getElementById('clear-board').addEventListener('click', () => document.
 
 // Função para criar quadro de pixels de tamanho N por N
 const createTable = (size) => {
-  document.querySelector('#pixel-board').remove();
-  const board = document.createElement('table');
-  board.id = 'pixel-board';
-  document.getElementById('board-div').appendChild(board);
+  document.querySelector('#pixel-board').innerHTML = '';
   for (let c = 0; c < size; c += 1) {
     const line = document.createElement('tr');
     document.getElementById('pixel-board').appendChild(line);
@@ -49,8 +46,7 @@ document.getElementById('generate-board').addEventListener('click', () => {
   let size = document.getElementById('board-size').value;
   if (size < 5) {
     size = 5;
-  }
-  if (size > 50) {
+  } else if (size > 50) {
     size = 50;
   }
   createTable(size);
