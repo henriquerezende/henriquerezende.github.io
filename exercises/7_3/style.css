@@ -1,0 +1,50 @@
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(7, 150px);
+}
+
+.cards img {
+    width: 70%;
+}
+
+.card-btn {
+    width: 200px;
+}
+
+.rotate:hover {
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    } to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.zoom:hover {
+    animation: zoom 2s linear infinite;
+}
+
+@keyframes zoom {
+    from {
+        width: 70%;
+    } to {
+        width: 90%;
+    }
+}
+
+.square-rotating:hover {
+    animation: square-rotating 1s linear infinite;
+}
+
+@keyframes square-rotating {
+    0% {
+      transform: rotate3d(1, 1, 1, 150deg);
+    }
+    100% {
+      transform: rotate3d(-1, -1, -1, 150deg);
+    }
+  }
