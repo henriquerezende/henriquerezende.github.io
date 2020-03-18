@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Count</title>
+</head>
+<body>
+    <h1 id="click-counter">0</h1>
+    <button id="click-btn">Click</button>
+    <script>
+        document.getElementById('click-btn').addEventListener('click', () => document.getElementById('click-counter').textContent = parseInt(document.getElementById('click-counter').textContent) + 1)
+    </script>
+</body>
+</html>
