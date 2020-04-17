@@ -42,7 +42,7 @@ const createCartItemElement = ({ sku, name, salePrice }) => {
   return li;
 };
 
-const fetchAPI = api => fetch(api).then(response => response.json());
+const fetchAPI = api => fetch(`https://cors-anywhere.herokuapp.com/${api}`).then(response => response.json());
 
 const appendElement = (parentClass, callback, obj) => document
   .getElementsByClassName(parentClass)[0]
