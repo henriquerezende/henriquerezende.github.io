@@ -1,0 +1,28 @@
+body {
+  background: rgb(224, 223, 213);
+}
+
+.container {
+  background: rgb(232, 233, 235);
+  padding-top: 30px;
+}
+
+.cart-icon {
+  color: #dc3545;
+  font-size: 45px;
+}
+
+.cart-size {
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  width: 25px;
+}
+
+.navbar {
+  padding: 15px;
+}
