@@ -1,0 +1,13 @@
+body {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+}
+
+.movie-card {
+  width: 500px;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
